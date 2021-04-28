@@ -1,6 +1,7 @@
 package repository;
 
-import main.java.tuanle.model.Staff;
+
+import tuanle.model.Staff;
 
 public final class RepositoryTestUtils {
 

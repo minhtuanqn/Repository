@@ -2,7 +2,7 @@ package tuanle;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import main.java.tuanle.model.Staff;
+import tuanle.model.Staff;
 
 import javax.sql.DataSource;
 import javax.xml.crypto.Data;

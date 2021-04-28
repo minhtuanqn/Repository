@@ -1,12 +1,13 @@
 package repository;
 
-import main.java.tuanle.model.Staff;
 import org.junit.Test;
 import tuanle.CrudRepository;
 import tuanle.StaffRepository;
+import tuanle.model.Staff;
 
 import static org.junit.Assert.*;
 
+import java.time.LocalDateTime;
 import java.util.Arrays;
 
 public class StaffRepositoryTest extends DatabaseTestSupport {
@@ -20,6 +21,22 @@ public class StaffRepositoryTest extends DatabaseTestSupport {
         final CrudRepository<Staff> repository = new StaffRepository(dataSource);
         final Staff staffA = RepositoryTestUtils.createMockStaff();
         final Staff staffB = RepositoryTestUtils.createMockStaff();
+
+        staffA.setId(1);
+        staffA.setFirstName("A");
+        staffA.setMiddleName("B");
+        staffA.setLastName("C");
+        staffA.setPhone("09876");
+        staffA.setDob(LocalDateTime.of(2020, 11, 26, 13, 55, 36, 123));
+        staffA.setAddress("A");
+
+        staffB.setId(2);
+        staffB.setFirstName("A");
+        staffB.setMiddleName("B");
+        staffB.setLastName("C");
+        staffB.setPhone("09876");
+        staffB.setDob( LocalDateTime.of(2020, 11, 26, 13, 55, 36, 123));
+        staffB.setAddress("B");
 
         // Execute
         repository.save(Arrays.asList(staffA, staffB));

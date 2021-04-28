@@ -1,4 +1,4 @@
-package main.java.tuanle.model;
+package tuanle.model;
 
 import java.time.LocalDateTime;
 
@@ -10,6 +10,20 @@ public class Staff {
     private LocalDateTime dob;
     private String phone;
     private String address;
+
+    public Staff() {
+    }
+
+    public Staff(Integer id, String firstName, String middleName, String lastName,
+                 LocalDateTime dob, String phone, String address) {
+        this.id = id;
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.dob = dob;
+        this.phone = phone;
+        this.address = address;
+    }
 
     public Integer getId() {
         return id;
