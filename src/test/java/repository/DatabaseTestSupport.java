@@ -1,4 +1,4 @@
-package java.repository;
+package repository;
 
 import javax.sql.DataSource;
 

@@ -1,9 +1,9 @@
-package java.repository;
+package repository;
 
-import main.java.tuanle.CrudRepository;
-import main.java.tuanle.StaffRepository;
 import main.java.tuanle.model.Staff;
 import org.junit.Test;
+import tuanle.CrudRepository;
+import tuanle.StaffRepository;
 
 import static org.junit.Assert.*;
 

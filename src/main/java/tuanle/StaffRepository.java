@@ -1,4 +1,4 @@
-package main.java.tuanle;
+package tuanle;
 
 import main.java.tuanle.model.Staff;
 
@@ -7,13 +7,15 @@ import java.util.Collection;
 
 public class StaffRepository implements CrudRepository<Staff> {
 
+    private DataSource dataSource;
+
     /**
      * Initialize
      *
      * @param dataSource Data source
      */
     public StaffRepository(DataSource dataSource) {
-        throw new UnsupportedOperationException("This method is not implemented yet");
+        this.dataSource = dataSource;
     }
 
     /**
@@ -23,7 +25,9 @@ public class StaffRepository implements CrudRepository<Staff> {
      */
     @Override
     public void save(Collection<Staff> data) {
-        throw new UnsupportedOperationException("This method is not implemented yet");
+        if(data == null) {
+            throw new IllegalArgumentException();
+        }
     }
 
     /**

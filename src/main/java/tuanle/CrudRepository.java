@@ -1,4 +1,4 @@
-package main.java.tuanle;
+package tuanle;
 
 import java.util.Collection;
 
