@@ -5,7 +5,6 @@ import tuanle.model.Staff;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -20,6 +19,9 @@ public class StaffRepository implements CrudRepository<Staff> {
     private PreparedStatement ps = null;
     private ResultSet rs = null;
 
+    /**
+     * Close connection
+     */
     private void closeConnection() {
         try {
             if(rs != null) {
@@ -39,7 +41,7 @@ public class StaffRepository implements CrudRepository<Staff> {
     }
 
     /**
-     * Initialize
+     * Initialize datasource
      *
      * @param dataSource Data source
      */
@@ -50,7 +52,7 @@ public class StaffRepository implements CrudRepository<Staff> {
 
     /**
      * {@inheritDoc}
-     *
+     * Save data to database
      * @param data Data
      */
     @Override
@@ -99,7 +101,7 @@ public class StaffRepository implements CrudRepository<Staff> {
     /**
      * {@inheritDoc}
      *
-     * @return
+     * @return collection of staff in database
      */
     @Override
     public Collection<Staff> findAll() {

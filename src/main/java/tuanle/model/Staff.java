@@ -2,6 +2,9 @@ package tuanle.model;
 
 import java.time.LocalDateTime;
 
+/**
+ * Staff model
+ */
 public class Staff {
     private Integer id;
     private String firstName;
