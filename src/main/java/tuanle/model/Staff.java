@@ -1,4 +1,4 @@
-package tuanle.main;
+package main.java.tuanle.model;
 
 import java.time.LocalDateTime;
 

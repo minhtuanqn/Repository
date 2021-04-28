@@ -1,7 +1,6 @@
-package tuanle.main;
+package main.java.tuanle;
 
-import tuanle.main.CrudRepository;
-import tuanle.main.Staff;
+import main.java.tuanle.model.Staff;
 
 import javax.sql.DataSource;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package tuanle.test;
+package java.repository;
 
 import javax.sql.DataSource;
 
@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.testng.reporters.Files;
 
-import javax.sql.DataSource;
 import java.io.File;
 import java.sql.Connection;
 import java.sql.SQLException;
