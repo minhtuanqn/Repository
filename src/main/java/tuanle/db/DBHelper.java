@@ -21,7 +21,7 @@ public class DBHelper {
         return dataSource;
     }
 
-    public static void init() {
+    private static void init() {
         // Data source setup
         final HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:h2:mem:" + UUID.randomUUID().toString());   // In-memory database
@@ -41,7 +41,7 @@ public class DBHelper {
     }
 
     // Truncate all data in staff table to avoid from side-impact
-    public static void truncateData() {
+    private static void truncateData() {
         try (final Connection connection = dataSource.getConnection();
              final Statement statement = connection.createStatement()) {
 
