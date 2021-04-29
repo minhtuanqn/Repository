@@ -1,6 +1,7 @@
-package tuanle;
+package tuanle.repository.iml;
 
 import tuanle.model.Staff;
+import tuanle.repository.CrudRepository;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -63,23 +64,24 @@ public class StaffRepository implements CrudRepository<Staff> {
         try {
             cnn = this.dataSource.getConnection();
             if(cnn != null) {
-                String sql = "insert into Staff(firstname,middleName, lastname, dob, phone, address) " +
-                        " values(?,?,?,?,?,?)";
+                String sql = "insert into Staff(id ,firstname,middleName, lastname, dob, phone, address) " +
+                        " values(?,?,?,?,?,?,?)";
                 Iterator iterator =  data.iterator();
                 while (iterator.hasNext()) {
                     Staff staff = (Staff) iterator.next();
                     ps = cnn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-                    ps.setString(1, staff.getFirstName());
-                    ps.setString(2, staff.getMiddleName());
-                    ps.setString(3, staff.getLastName());
+                    ps.setInt(1,staff.getId());
+                    ps.setString(2, staff.getFirstName());
+                    ps.setString(3, staff.getMiddleName());
+                    ps.setString(4, staff.getLastName());
                     if(staff.getDob() == null) {
-                        ps.setTimestamp(4, null);
+                        ps.setTimestamp(5, null);
                     }
                     else {
-                        ps.setTimestamp(4, Timestamp.valueOf(staff.getDob()));
+                        ps.setTimestamp(5, Timestamp.valueOf(staff.getDob()));
                     }
-                    ps.setString(5, staff.getPhone());
-                    ps.setString(6, staff.getAddress());
+                    ps.setString(6, staff.getPhone());
+                    ps.setString(7, staff.getAddress());
                     ps.executeUpdate();
                     rs = ps.getGeneratedKeys();
                     if(rs.next()) {

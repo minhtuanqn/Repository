@@ -1,8 +1,8 @@
 package repository;
 
 import org.junit.Test;
-import tuanle.CrudRepository;
-import tuanle.StaffRepository;
+import tuanle.repository.CrudRepository;
+import tuanle.repository.iml.StaffRepository;
 import tuanle.model.Staff;
 
 import static org.junit.Assert.*;

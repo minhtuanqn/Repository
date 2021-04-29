@@ -1,4 +1,4 @@
-package tuanle;
+package tuanle.repository;
 
 import java.util.Collection;
 
