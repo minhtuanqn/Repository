@@ -3,17 +3,12 @@ package tuanle.db;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import org.testng.reporters.Files;
-
 import javax.sql.DataSource;
 import java.io.File;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.UUID;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
-import java.util.logging.Logger;
-
 import static org.junit.Assert.fail;
 
 public class DBHelper {
