@@ -16,6 +16,8 @@ public class DBHelper {
     protected static DataSource dataSource;
 
     public static DataSource getDataSource() {
+        init();
+        truncateData();
         return dataSource;
     }
 

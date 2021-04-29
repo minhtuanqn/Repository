@@ -16,8 +16,6 @@ import java.util.UUID;
 
 public class App {
     public static void main(String[] args) {
-        DBHelper.init();
-        DBHelper.truncateData();
 
         // Initialize repository
         final DataSource dataSource = DBHelper.getDataSource(); // Declare datasource
