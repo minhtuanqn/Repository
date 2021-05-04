@@ -15,14 +15,23 @@ import java.util.logging.Logger;
 public class StaffRepository implements CrudRepository<Staff> {
 
     private DataSource dataSource;
-    private Connection cnn = null;
-    private PreparedStatement ps = null;
-    private ResultSet rs = null;
+
+    /**
+     * Initialize datasource
+     *
+     * @param dataSource Data source
+     */
+    public StaffRepository(DataSource dataSource) throws SQLException {
+        if(dataSource == null) {
+            throw new SQLException();
+        }
+        this.dataSource = dataSource;
+    }
 
     /**
      * Close connection
      */
-    private void closeConnection() {
+    private void closeConnection(ResultSet rs, PreparedStatement ps, Connection cnn) {
         try {
             if(rs != null) {
                 rs.close();
@@ -35,20 +44,10 @@ public class StaffRepository implements CrudRepository<Staff> {
             }
         }
         catch (SQLException e) {
-            Logger logger = Logger.getLogger("DBLogger");
+            Logger logger =  Logger.getLogger("DBLogger");
             logger.log(new LogRecord(Level.SEVERE, e.getMessage()));
         }
     }
-
-    /**
-     * Initialize datasource
-     *
-     * @param dataSource Data source
-     */
-    public StaffRepository(DataSource dataSource) {
-        this.dataSource = dataSource;
-    }
-
 
     /**
      * {@inheritDoc}
@@ -57,14 +56,18 @@ public class StaffRepository implements CrudRepository<Staff> {
      */
     @Override
     public void save(Collection<Staff> data) {
-        if(data == null) {
+        Connection cnn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        if(data == null || data.size() == 0) {
             throw new IllegalArgumentException();
         }
         try {
             cnn = this.dataSource.getConnection();
             if(cnn != null) {
-                String sql = "insert into Staff(id ,firstname,middleName, lastname, dob, phone, address) " +
-                        " values(?,?,?,?,?,?,?)";
+                final String sql = "INSERT INTO Staff(id ,firstname,middleName, lastname, dob, phone, address) " +
+                        " VALUES(?,?,?,?,?,?,?)";
                 Iterator iterator =  data.iterator();
                 while (iterator.hasNext()) {
                     Staff staff = (Staff) iterator.next();
@@ -88,6 +91,7 @@ public class StaffRepository implements CrudRepository<Staff> {
                         staff.setId(primaryKey);
                     }
                 }
+
             }
         }
         catch (SQLException e) {
@@ -95,7 +99,7 @@ public class StaffRepository implements CrudRepository<Staff> {
             logger.log(new LogRecord(Level.SEVERE, e.getMessage()));
         }
         finally {
-            closeConnection();
+            closeConnection(rs, ps, cnn);
         }
     }
 
@@ -106,12 +110,15 @@ public class StaffRepository implements CrudRepository<Staff> {
      */
     @Override
     public Collection<Staff> findAll() {
+        Connection cnn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
         Collection<Staff> staffCollection = new ArrayList<>();
         try {
             cnn = dataSource.getConnection();
             if(cnn != null) {
-                String sql = "select id, firstname,middleName, lastname, dob, phone, address " +
-                        "from Staff";
+                final String sql = "SELECT id, firstname,middleName, lastname, dob, phone, address " +
+                        "FROM Staff";
                 ps = cnn.prepareStatement(sql);
                 rs = ps.executeQuery();
                 while (rs.next()) {
@@ -129,8 +136,9 @@ public class StaffRepository implements CrudRepository<Staff> {
         } catch (SQLException e) {
             Logger logger = Logger.getLogger("DBLogger");
             logger.log(new LogRecord(Level.SEVERE, e.getMessage()));
-        } finally {
-            closeConnection();
+        }
+        finally {
+            closeConnection(rs, ps, cnn);
         }
         return staffCollection;
     }
