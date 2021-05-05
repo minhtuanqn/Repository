@@ -1,0 +1,1354 @@
+10:02:25,062 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+10:02:25,067 [DEBUG] - HikariPool-1 - configuration:
+10:02:25,071 [DEBUG] - allowPoolSuspension.............false
+10:02:25,072 [DEBUG] - autoCommit......................true
+10:02:25,072 [DEBUG] - catalog.........................none
+10:02:25,072 [DEBUG] - connectionInitSql...............none
+10:02:25,072 [DEBUG] - connectionTestQuery.............none
+10:02:25,072 [DEBUG] - connectionTimeout...............30000
+10:02:25,072 [DEBUG] - dataSource......................none
+10:02:25,072 [DEBUG] - dataSourceClassName.............none
+10:02:25,072 [DEBUG] - dataSourceJNDI..................none
+10:02:25,075 [DEBUG] - dataSourceProperties............{password=<masked>}
+10:02:25,075 [DEBUG] - driverClassName................."org.h2.Driver"
+10:02:25,075 [DEBUG] - exceptionOverrideClassName......none
+10:02:25,076 [DEBUG] - healthCheckProperties...........{}
+10:02:25,076 [DEBUG] - healthCheckRegistry.............none
+10:02:25,076 [DEBUG] - idleTimeout.....................600000
+10:02:25,076 [DEBUG] - initializationFailTimeout.......1
+10:02:25,076 [DEBUG] - isolateInternalQueries..........false
+10:02:25,076 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb
+10:02:25,076 [DEBUG] - leakDetectionThreshold..........0
+10:02:25,077 [DEBUG] - maxLifetime.....................1800000
+10:02:25,077 [DEBUG] - maximumPoolSize.................10
+10:02:25,077 [DEBUG] - metricRegistry..................none
+10:02:25,077 [DEBUG] - metricsTrackerFactory...........none
+10:02:25,077 [DEBUG] - minimumIdle.....................10
+10:02:25,077 [DEBUG] - password........................<masked>
+10:02:25,077 [DEBUG] - poolName........................"HikariPool-1"
+10:02:25,078 [DEBUG] - readOnly........................false
+10:02:25,078 [DEBUG] - registerMbeans..................false
+10:02:25,078 [DEBUG] - scheduledExecutor...............none
+10:02:25,078 [DEBUG] - schema..........................none
+10:02:25,078 [DEBUG] - threadFactory...................internal
+10:02:25,078 [DEBUG] - transactionIsolation............default
+10:02:25,079 [DEBUG] - username........................none
+10:02:25,079 [DEBUG] - validationTimeout...............5000
+10:02:25,080 [ INFO] - HikariPool-1 - Starting...
+10:02:25,359 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,361 [ INFO] - HikariPool-1 - Start completed.
+10:02:25,466 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+10:02:25,471 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,472 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,472 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,473 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,473 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,474 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,475 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,476 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,477 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:e7c8f5b6-235b-4708-8bd8-ac49696f68fb user=
+10:02:25,478 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+10:55:41,072 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+10:55:41,079 [DEBUG] - HikariPool-1 - configuration:
+10:55:41,084 [DEBUG] - allowPoolSuspension.............false
+10:55:41,084 [DEBUG] - autoCommit......................true
+10:55:41,084 [DEBUG] - catalog.........................none
+10:55:41,084 [DEBUG] - connectionInitSql...............none
+10:55:41,084 [DEBUG] - connectionTestQuery.............none
+10:55:41,084 [DEBUG] - connectionTimeout...............30000
+10:55:41,085 [DEBUG] - dataSource......................none
+10:55:41,085 [DEBUG] - dataSourceClassName.............none
+10:55:41,085 [DEBUG] - dataSourceJNDI..................none
+10:55:41,086 [DEBUG] - dataSourceProperties............{password=<masked>}
+10:55:41,086 [DEBUG] - driverClassName................."org.h2.Driver"
+10:55:41,086 [DEBUG] - exceptionOverrideClassName......none
+10:55:41,086 [DEBUG] - healthCheckProperties...........{}
+10:55:41,086 [DEBUG] - healthCheckRegistry.............none
+10:55:41,087 [DEBUG] - idleTimeout.....................600000
+10:55:41,087 [DEBUG] - initializationFailTimeout.......1
+10:55:41,087 [DEBUG] - isolateInternalQueries..........false
+10:55:41,087 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32
+10:55:41,087 [DEBUG] - leakDetectionThreshold..........0
+10:55:41,087 [DEBUG] - maxLifetime.....................1800000
+10:55:41,087 [DEBUG] - maximumPoolSize.................10
+10:55:41,088 [DEBUG] - metricRegistry..................none
+10:55:41,088 [DEBUG] - metricsTrackerFactory...........none
+10:55:41,088 [DEBUG] - minimumIdle.....................10
+10:55:41,088 [DEBUG] - password........................<masked>
+10:55:41,088 [DEBUG] - poolName........................"HikariPool-1"
+10:55:41,088 [DEBUG] - readOnly........................false
+10:55:41,088 [DEBUG] - registerMbeans..................false
+10:55:41,088 [DEBUG] - scheduledExecutor...............none
+10:55:41,089 [DEBUG] - schema..........................none
+10:55:41,089 [DEBUG] - threadFactory...................internal
+10:55:41,089 [DEBUG] - transactionIsolation............default
+10:55:41,089 [DEBUG] - username........................none
+10:55:41,089 [DEBUG] - validationTimeout...............5000
+10:55:41,090 [ INFO] - HikariPool-1 - Starting...
+10:55:41,358 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,362 [ INFO] - HikariPool-1 - Start completed.
+10:55:41,479 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+10:55:41,489 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,490 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,491 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,491 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,491 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,491 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,492 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,492 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,492 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:8de0420f-3abe-4b21-a770-1c10e7a01b32 user=
+10:55:41,492 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:30:24,042 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:30:24,049 [DEBUG] - HikariPool-1 - configuration:
+13:30:24,053 [DEBUG] - allowPoolSuspension.............false
+13:30:24,053 [DEBUG] - autoCommit......................true
+13:30:24,053 [DEBUG] - catalog.........................none
+13:30:24,054 [DEBUG] - connectionInitSql...............none
+13:30:24,054 [DEBUG] - connectionTestQuery.............none
+13:30:24,054 [DEBUG] - connectionTimeout...............30000
+13:30:24,054 [DEBUG] - dataSource......................none
+13:30:24,054 [DEBUG] - dataSourceClassName.............none
+13:30:24,054 [DEBUG] - dataSourceJNDI..................none
+13:30:24,055 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:30:24,055 [DEBUG] - driverClassName................."org.h2.Driver"
+13:30:24,055 [DEBUG] - exceptionOverrideClassName......none
+13:30:24,056 [DEBUG] - healthCheckProperties...........{}
+13:30:24,056 [DEBUG] - healthCheckRegistry.............none
+13:30:24,056 [DEBUG] - idleTimeout.....................600000
+13:30:24,056 [DEBUG] - initializationFailTimeout.......1
+13:30:24,056 [DEBUG] - isolateInternalQueries..........false
+13:30:24,056 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525
+13:30:24,056 [DEBUG] - leakDetectionThreshold..........0
+13:30:24,057 [DEBUG] - maxLifetime.....................1800000
+13:30:24,057 [DEBUG] - maximumPoolSize.................10
+13:30:24,057 [DEBUG] - metricRegistry..................none
+13:30:24,057 [DEBUG] - metricsTrackerFactory...........none
+13:30:24,057 [DEBUG] - minimumIdle.....................10
+13:30:24,057 [DEBUG] - password........................<masked>
+13:30:24,057 [DEBUG] - poolName........................"HikariPool-1"
+13:30:24,058 [DEBUG] - readOnly........................false
+13:30:24,058 [DEBUG] - registerMbeans..................false
+13:30:24,058 [DEBUG] - scheduledExecutor...............none
+13:30:24,058 [DEBUG] - schema..........................none
+13:30:24,058 [DEBUG] - threadFactory...................internal
+13:30:24,058 [DEBUG] - transactionIsolation............default
+13:30:24,058 [DEBUG] - username........................none
+13:30:24,058 [DEBUG] - validationTimeout...............5000
+13:30:24,060 [ INFO] - HikariPool-1 - Starting...
+13:30:24,261 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,263 [ INFO] - HikariPool-1 - Start completed.
+13:30:24,378 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:30:24,389 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,391 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,391 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,392 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,392 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,392 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,392 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,393 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,393 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:2fb1b874-bd11-45c5-9e75-28dd52246525 user=
+13:30:24,393 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:31:26,183 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:31:26,187 [DEBUG] - HikariPool-1 - configuration:
+13:31:26,191 [DEBUG] - allowPoolSuspension.............false
+13:31:26,191 [DEBUG] - autoCommit......................true
+13:31:26,192 [DEBUG] - catalog.........................none
+13:31:26,192 [DEBUG] - connectionInitSql...............none
+13:31:26,192 [DEBUG] - connectionTestQuery.............none
+13:31:26,192 [DEBUG] - connectionTimeout...............30000
+13:31:26,192 [DEBUG] - dataSource......................none
+13:31:26,192 [DEBUG] - dataSourceClassName.............none
+13:31:26,193 [DEBUG] - dataSourceJNDI..................none
+13:31:26,194 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:31:26,194 [DEBUG] - driverClassName................."org.h2.Driver"
+13:31:26,194 [DEBUG] - exceptionOverrideClassName......none
+13:31:26,194 [DEBUG] - healthCheckProperties...........{}
+13:31:26,194 [DEBUG] - healthCheckRegistry.............none
+13:31:26,194 [DEBUG] - idleTimeout.....................600000
+13:31:26,194 [DEBUG] - initializationFailTimeout.......1
+13:31:26,195 [DEBUG] - isolateInternalQueries..........false
+13:31:26,195 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c
+13:31:26,195 [DEBUG] - leakDetectionThreshold..........0
+13:31:26,195 [DEBUG] - maxLifetime.....................1800000
+13:31:26,195 [DEBUG] - maximumPoolSize.................10
+13:31:26,195 [DEBUG] - metricRegistry..................none
+13:31:26,196 [DEBUG] - metricsTrackerFactory...........none
+13:31:26,196 [DEBUG] - minimumIdle.....................10
+13:31:26,196 [DEBUG] - password........................<masked>
+13:31:26,196 [DEBUG] - poolName........................"HikariPool-1"
+13:31:26,196 [DEBUG] - readOnly........................false
+13:31:26,196 [DEBUG] - registerMbeans..................false
+13:31:26,196 [DEBUG] - scheduledExecutor...............none
+13:31:26,196 [DEBUG] - schema..........................none
+13:31:26,197 [DEBUG] - threadFactory...................internal
+13:31:26,197 [DEBUG] - transactionIsolation............default
+13:31:26,197 [DEBUG] - username........................none
+13:31:26,197 [DEBUG] - validationTimeout...............5000
+13:31:26,198 [ INFO] - HikariPool-1 - Starting...
+13:31:26,391 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,394 [ INFO] - HikariPool-1 - Start completed.
+13:31:26,504 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:31:26,509 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,510 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,510 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,510 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,510 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,511 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,511 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,511 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,511 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:b8563e92-9a7a-45ba-84c2-83772bcc1d7c user=
+13:31:26,511 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:32:36,780 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:32:36,788 [DEBUG] - HikariPool-1 - configuration:
+13:32:36,793 [DEBUG] - allowPoolSuspension.............false
+13:32:36,793 [DEBUG] - autoCommit......................true
+13:32:36,793 [DEBUG] - catalog.........................none
+13:32:36,794 [DEBUG] - connectionInitSql...............none
+13:32:36,794 [DEBUG] - connectionTestQuery.............none
+13:32:36,794 [DEBUG] - connectionTimeout...............30000
+13:32:36,794 [DEBUG] - dataSource......................none
+13:32:36,795 [DEBUG] - dataSourceClassName.............none
+13:32:36,795 [DEBUG] - dataSourceJNDI..................none
+13:32:36,797 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:32:36,797 [DEBUG] - driverClassName................."org.h2.Driver"
+13:32:36,797 [DEBUG] - exceptionOverrideClassName......none
+13:32:36,798 [DEBUG] - healthCheckProperties...........{}
+13:32:36,798 [DEBUG] - healthCheckRegistry.............none
+13:32:36,798 [DEBUG] - idleTimeout.....................600000
+13:32:36,798 [DEBUG] - initializationFailTimeout.......1
+13:32:36,798 [DEBUG] - isolateInternalQueries..........false
+13:32:36,799 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8
+13:32:36,799 [DEBUG] - leakDetectionThreshold..........0
+13:32:36,799 [DEBUG] - maxLifetime.....................1800000
+13:32:36,799 [DEBUG] - maximumPoolSize.................10
+13:32:36,799 [DEBUG] - metricRegistry..................none
+13:32:36,799 [DEBUG] - metricsTrackerFactory...........none
+13:32:36,799 [DEBUG] - minimumIdle.....................10
+13:32:36,800 [DEBUG] - password........................<masked>
+13:32:36,800 [DEBUG] - poolName........................"HikariPool-1"
+13:32:36,800 [DEBUG] - readOnly........................false
+13:32:36,800 [DEBUG] - registerMbeans..................false
+13:32:36,800 [DEBUG] - scheduledExecutor...............none
+13:32:36,801 [DEBUG] - schema..........................none
+13:32:36,801 [DEBUG] - threadFactory...................internal
+13:32:36,801 [DEBUG] - transactionIsolation............default
+13:32:36,801 [DEBUG] - username........................none
+13:32:36,801 [DEBUG] - validationTimeout...............5000
+13:32:36,803 [ INFO] - HikariPool-1 - Starting...
+13:32:37,033 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,036 [ INFO] - HikariPool-1 - Start completed.
+13:32:37,150 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:32:37,157 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,158 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,158 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,159 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,159 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,159 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,159 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,160 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,160 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:1b500e5b-e359-4a63-bc51-a72fbfbe1ef8 user=
+13:32:37,160 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:33:15,471 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:33:15,476 [DEBUG] - HikariPool-1 - configuration:
+13:33:15,480 [DEBUG] - allowPoolSuspension.............false
+13:33:15,481 [DEBUG] - autoCommit......................true
+13:33:15,481 [DEBUG] - catalog.........................none
+13:33:15,481 [DEBUG] - connectionInitSql...............none
+13:33:15,481 [DEBUG] - connectionTestQuery.............none
+13:33:15,481 [DEBUG] - connectionTimeout...............30000
+13:33:15,481 [DEBUG] - dataSource......................none
+13:33:15,481 [DEBUG] - dataSourceClassName.............none
+13:33:15,481 [DEBUG] - dataSourceJNDI..................none
+13:33:15,482 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:33:15,482 [DEBUG] - driverClassName................."org.h2.Driver"
+13:33:15,482 [DEBUG] - exceptionOverrideClassName......none
+13:33:15,483 [DEBUG] - healthCheckProperties...........{}
+13:33:15,483 [DEBUG] - healthCheckRegistry.............none
+13:33:15,483 [DEBUG] - idleTimeout.....................600000
+13:33:15,483 [DEBUG] - initializationFailTimeout.......1
+13:33:15,483 [DEBUG] - isolateInternalQueries..........false
+13:33:15,483 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df
+13:33:15,484 [DEBUG] - leakDetectionThreshold..........0
+13:33:15,484 [DEBUG] - maxLifetime.....................1800000
+13:33:15,484 [DEBUG] - maximumPoolSize.................10
+13:33:15,484 [DEBUG] - metricRegistry..................none
+13:33:15,484 [DEBUG] - metricsTrackerFactory...........none
+13:33:15,484 [DEBUG] - minimumIdle.....................10
+13:33:15,484 [DEBUG] - password........................<masked>
+13:33:15,485 [DEBUG] - poolName........................"HikariPool-1"
+13:33:15,485 [DEBUG] - readOnly........................false
+13:33:15,485 [DEBUG] - registerMbeans..................false
+13:33:15,485 [DEBUG] - scheduledExecutor...............none
+13:33:15,485 [DEBUG] - schema..........................none
+13:33:15,485 [DEBUG] - threadFactory...................internal
+13:33:15,486 [DEBUG] - transactionIsolation............default
+13:33:15,486 [DEBUG] - username........................none
+13:33:15,486 [DEBUG] - validationTimeout...............5000
+13:33:15,487 [ INFO] - HikariPool-1 - Starting...
+13:33:15,702 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,705 [ INFO] - HikariPool-1 - Start completed.
+13:33:15,804 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:33:15,809 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,809 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,810 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,810 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,810 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,811 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,811 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,811 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,811 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:067cba7d-e788-4148-9e4a-b29856d134df user=
+13:33:15,811 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:45:27,214 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:45:27,219 [DEBUG] - HikariPool-1 - configuration:
+13:45:27,223 [DEBUG] - allowPoolSuspension.............false
+13:45:27,224 [DEBUG] - autoCommit......................true
+13:45:27,224 [DEBUG] - catalog.........................none
+13:45:27,224 [DEBUG] - connectionInitSql...............none
+13:45:27,224 [DEBUG] - connectionTestQuery.............none
+13:45:27,224 [DEBUG] - connectionTimeout...............30000
+13:45:27,224 [DEBUG] - dataSource......................none
+13:45:27,224 [DEBUG] - dataSourceClassName.............none
+13:45:27,225 [DEBUG] - dataSourceJNDI..................none
+13:45:27,225 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:45:27,226 [DEBUG] - driverClassName................."org.h2.Driver"
+13:45:27,226 [DEBUG] - exceptionOverrideClassName......none
+13:45:27,226 [DEBUG] - healthCheckProperties...........{}
+13:45:27,226 [DEBUG] - healthCheckRegistry.............none
+13:45:27,226 [DEBUG] - idleTimeout.....................600000
+13:45:27,226 [DEBUG] - initializationFailTimeout.......1
+13:45:27,226 [DEBUG] - isolateInternalQueries..........false
+13:45:27,227 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c
+13:45:27,227 [DEBUG] - leakDetectionThreshold..........0
+13:45:27,227 [DEBUG] - maxLifetime.....................1800000
+13:45:27,227 [DEBUG] - maximumPoolSize.................10
+13:45:27,227 [DEBUG] - metricRegistry..................none
+13:45:27,227 [DEBUG] - metricsTrackerFactory...........none
+13:45:27,227 [DEBUG] - minimumIdle.....................10
+13:45:27,227 [DEBUG] - password........................<masked>
+13:45:27,228 [DEBUG] - poolName........................"HikariPool-1"
+13:45:27,228 [DEBUG] - readOnly........................false
+13:45:27,228 [DEBUG] - registerMbeans..................false
+13:45:27,228 [DEBUG] - scheduledExecutor...............none
+13:45:27,228 [DEBUG] - schema..........................none
+13:45:27,228 [DEBUG] - threadFactory...................internal
+13:45:27,228 [DEBUG] - transactionIsolation............default
+13:45:27,229 [DEBUG] - username........................none
+13:45:27,229 [DEBUG] - validationTimeout...............5000
+13:45:27,230 [ INFO] - HikariPool-1 - Starting...
+13:45:27,446 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,448 [ INFO] - HikariPool-1 - Start completed.
+13:45:27,556 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:45:27,561 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,561 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,562 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,562 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,562 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,562 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,563 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,563 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,563 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:0609db86-cbbc-41e2-b20b-1aec3684343c user=
+13:45:27,563 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:45:38,961 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:45:38,967 [DEBUG] - HikariPool-1 - configuration:
+13:45:38,971 [DEBUG] - allowPoolSuspension.............false
+13:45:38,971 [DEBUG] - autoCommit......................true
+13:45:38,971 [DEBUG] - catalog.........................none
+13:45:38,971 [DEBUG] - connectionInitSql...............none
+13:45:38,972 [DEBUG] - connectionTestQuery.............none
+13:45:38,972 [DEBUG] - connectionTimeout...............30000
+13:45:38,972 [DEBUG] - dataSource......................none
+13:45:38,972 [DEBUG] - dataSourceClassName.............none
+13:45:38,972 [DEBUG] - dataSourceJNDI..................none
+13:45:38,973 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:45:38,973 [DEBUG] - driverClassName................."org.h2.Driver"
+13:45:38,973 [DEBUG] - exceptionOverrideClassName......none
+13:45:38,973 [DEBUG] - healthCheckProperties...........{}
+13:45:38,973 [DEBUG] - healthCheckRegistry.............none
+13:45:38,973 [DEBUG] - idleTimeout.....................600000
+13:45:38,974 [DEBUG] - initializationFailTimeout.......1
+13:45:38,974 [DEBUG] - isolateInternalQueries..........false
+13:45:38,974 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df
+13:45:38,974 [DEBUG] - leakDetectionThreshold..........0
+13:45:38,974 [DEBUG] - maxLifetime.....................1800000
+13:45:38,974 [DEBUG] - maximumPoolSize.................10
+13:45:38,974 [DEBUG] - metricRegistry..................none
+13:45:38,974 [DEBUG] - metricsTrackerFactory...........none
+13:45:38,974 [DEBUG] - minimumIdle.....................10
+13:45:38,974 [DEBUG] - password........................<masked>
+13:45:38,975 [DEBUG] - poolName........................"HikariPool-1"
+13:45:38,975 [DEBUG] - readOnly........................false
+13:45:38,975 [DEBUG] - registerMbeans..................false
+13:45:38,975 [DEBUG] - scheduledExecutor...............none
+13:45:38,975 [DEBUG] - schema..........................none
+13:45:38,975 [DEBUG] - threadFactory...................internal
+13:45:38,975 [DEBUG] - transactionIsolation............default
+13:45:38,975 [DEBUG] - username........................none
+13:45:38,975 [DEBUG] - validationTimeout...............5000
+13:45:38,976 [ INFO] - HikariPool-1 - Starting...
+13:45:39,171 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,173 [ INFO] - HikariPool-1 - Start completed.
+13:45:39,284 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:45:39,289 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,290 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,290 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,290 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,290 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,291 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,291 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,291 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,291 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:05b09a60-7092-4102-8794-af13fcbbe1df user=
+13:45:39,291 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+13:55:52,896 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+13:55:52,902 [DEBUG] - HikariPool-1 - configuration:
+13:55:52,905 [DEBUG] - allowPoolSuspension.............false
+13:55:52,906 [DEBUG] - autoCommit......................true
+13:55:52,906 [DEBUG] - catalog.........................none
+13:55:52,906 [DEBUG] - connectionInitSql...............none
+13:55:52,906 [DEBUG] - connectionTestQuery.............none
+13:55:52,906 [DEBUG] - connectionTimeout...............30000
+13:55:52,906 [DEBUG] - dataSource......................none
+13:55:52,906 [DEBUG] - dataSourceClassName.............none
+13:55:52,907 [DEBUG] - dataSourceJNDI..................none
+13:55:52,907 [DEBUG] - dataSourceProperties............{password=<masked>}
+13:55:52,907 [DEBUG] - driverClassName................."org.h2.Driver"
+13:55:52,908 [DEBUG] - exceptionOverrideClassName......none
+13:55:52,908 [DEBUG] - healthCheckProperties...........{}
+13:55:52,908 [DEBUG] - healthCheckRegistry.............none
+13:55:52,908 [DEBUG] - idleTimeout.....................600000
+13:55:52,908 [DEBUG] - initializationFailTimeout.......1
+13:55:52,908 [DEBUG] - isolateInternalQueries..........false
+13:55:52,908 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df
+13:55:52,909 [DEBUG] - leakDetectionThreshold..........0
+13:55:52,909 [DEBUG] - maxLifetime.....................1800000
+13:55:52,909 [DEBUG] - maximumPoolSize.................10
+13:55:52,909 [DEBUG] - metricRegistry..................none
+13:55:52,909 [DEBUG] - metricsTrackerFactory...........none
+13:55:52,909 [DEBUG] - minimumIdle.....................10
+13:55:52,909 [DEBUG] - password........................<masked>
+13:55:52,910 [DEBUG] - poolName........................"HikariPool-1"
+13:55:52,910 [DEBUG] - readOnly........................false
+13:55:52,910 [DEBUG] - registerMbeans..................false
+13:55:52,910 [DEBUG] - scheduledExecutor...............none
+13:55:52,910 [DEBUG] - schema..........................none
+13:55:52,910 [DEBUG] - threadFactory...................internal
+13:55:52,910 [DEBUG] - transactionIsolation............default
+13:55:52,911 [DEBUG] - username........................none
+13:55:52,911 [DEBUG] - validationTimeout...............5000
+13:55:52,912 [ INFO] - HikariPool-1 - Starting...
+13:55:53,134 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,136 [ INFO] - HikariPool-1 - Start completed.
+13:55:53,245 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+13:55:53,257 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,260 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,260 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,261 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,261 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,262 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,262 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,262 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,263 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:a0638f83-29b9-4b40-8501-dad3224041df user=
+13:55:53,263 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:06:22,403 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:06:22,409 [DEBUG] - HikariPool-1 - configuration:
+14:06:22,415 [DEBUG] - allowPoolSuspension.............false
+14:06:22,415 [DEBUG] - autoCommit......................true
+14:06:22,415 [DEBUG] - catalog.........................none
+14:06:22,415 [DEBUG] - connectionInitSql...............none
+14:06:22,415 [DEBUG] - connectionTestQuery.............none
+14:06:22,415 [DEBUG] - connectionTimeout...............30000
+14:06:22,416 [DEBUG] - dataSource......................none
+14:06:22,416 [DEBUG] - dataSourceClassName.............none
+14:06:22,416 [DEBUG] - dataSourceJNDI..................none
+14:06:22,417 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:06:22,417 [DEBUG] - driverClassName................."org.h2.Driver"
+14:06:22,418 [DEBUG] - exceptionOverrideClassName......none
+14:06:22,418 [DEBUG] - healthCheckProperties...........{}
+14:06:22,418 [DEBUG] - healthCheckRegistry.............none
+14:06:22,418 [DEBUG] - idleTimeout.....................600000
+14:06:22,418 [DEBUG] - initializationFailTimeout.......1
+14:06:22,418 [DEBUG] - isolateInternalQueries..........false
+14:06:22,419 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407
+14:06:22,419 [DEBUG] - leakDetectionThreshold..........0
+14:06:22,419 [DEBUG] - maxLifetime.....................1800000
+14:06:22,419 [DEBUG] - maximumPoolSize.................10
+14:06:22,419 [DEBUG] - metricRegistry..................none
+14:06:22,420 [DEBUG] - metricsTrackerFactory...........none
+14:06:22,420 [DEBUG] - minimumIdle.....................10
+14:06:22,420 [DEBUG] - password........................<masked>
+14:06:22,420 [DEBUG] - poolName........................"HikariPool-1"
+14:06:22,420 [DEBUG] - readOnly........................false
+14:06:22,420 [DEBUG] - registerMbeans..................false
+14:06:22,421 [DEBUG] - scheduledExecutor...............none
+14:06:22,421 [DEBUG] - schema..........................none
+14:06:22,421 [DEBUG] - threadFactory...................internal
+14:06:22,421 [DEBUG] - transactionIsolation............default
+14:06:22,421 [DEBUG] - username........................none
+14:06:22,422 [DEBUG] - validationTimeout...............5000
+14:06:22,423 [ INFO] - HikariPool-1 - Starting...
+14:06:22,649 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,652 [ INFO] - HikariPool-1 - Start completed.
+14:06:22,758 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:06:22,763 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,764 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,764 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,764 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,765 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,765 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,765 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,765 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,766 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:e5f1cb2b-33b9-42fb-ab88-6a694092f407 user=
+14:06:22,766 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:06:57,784 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:06:57,789 [DEBUG] - HikariPool-1 - configuration:
+14:06:57,792 [DEBUG] - allowPoolSuspension.............false
+14:06:57,793 [DEBUG] - autoCommit......................true
+14:06:57,793 [DEBUG] - catalog.........................none
+14:06:57,793 [DEBUG] - connectionInitSql...............none
+14:06:57,793 [DEBUG] - connectionTestQuery.............none
+14:06:57,793 [DEBUG] - connectionTimeout...............30000
+14:06:57,793 [DEBUG] - dataSource......................none
+14:06:57,793 [DEBUG] - dataSourceClassName.............none
+14:06:57,794 [DEBUG] - dataSourceJNDI..................none
+14:06:57,794 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:06:57,794 [DEBUG] - driverClassName................."org.h2.Driver"
+14:06:57,795 [DEBUG] - exceptionOverrideClassName......none
+14:06:57,795 [DEBUG] - healthCheckProperties...........{}
+14:06:57,795 [DEBUG] - healthCheckRegistry.............none
+14:06:57,795 [DEBUG] - idleTimeout.....................600000
+14:06:57,795 [DEBUG] - initializationFailTimeout.......1
+14:06:57,795 [DEBUG] - isolateInternalQueries..........false
+14:06:57,795 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb
+14:06:57,795 [DEBUG] - leakDetectionThreshold..........0
+14:06:57,796 [DEBUG] - maxLifetime.....................1800000
+14:06:57,796 [DEBUG] - maximumPoolSize.................10
+14:06:57,796 [DEBUG] - metricRegistry..................none
+14:06:57,796 [DEBUG] - metricsTrackerFactory...........none
+14:06:57,796 [DEBUG] - minimumIdle.....................10
+14:06:57,796 [DEBUG] - password........................<masked>
+14:06:57,796 [DEBUG] - poolName........................"HikariPool-1"
+14:06:57,797 [DEBUG] - readOnly........................false
+14:06:57,797 [DEBUG] - registerMbeans..................false
+14:06:57,797 [DEBUG] - scheduledExecutor...............none
+14:06:57,797 [DEBUG] - schema..........................none
+14:06:57,797 [DEBUG] - threadFactory...................internal
+14:06:57,797 [DEBUG] - transactionIsolation............default
+14:06:57,797 [DEBUG] - username........................none
+14:06:57,797 [DEBUG] - validationTimeout...............5000
+14:06:57,799 [ INFO] - HikariPool-1 - Starting...
+14:06:58,007 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,010 [ INFO] - HikariPool-1 - Start completed.
+14:06:58,113 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:06:58,119 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,119 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,120 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,120 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,121 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,121 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,121 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,122 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,122 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:abcc0376-e1ee-41a0-9861-686fa1fe3ceb user=
+14:06:58,122 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:10:21,213 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:10:21,218 [DEBUG] - HikariPool-1 - configuration:
+14:10:21,223 [DEBUG] - allowPoolSuspension.............false
+14:10:21,223 [DEBUG] - autoCommit......................true
+14:10:21,223 [DEBUG] - catalog.........................none
+14:10:21,223 [DEBUG] - connectionInitSql...............none
+14:10:21,223 [DEBUG] - connectionTestQuery.............none
+14:10:21,223 [DEBUG] - connectionTimeout...............30000
+14:10:21,223 [DEBUG] - dataSource......................none
+14:10:21,223 [DEBUG] - dataSourceClassName.............none
+14:10:21,224 [DEBUG] - dataSourceJNDI..................none
+14:10:21,224 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:10:21,225 [DEBUG] - driverClassName................."org.h2.Driver"
+14:10:21,225 [DEBUG] - exceptionOverrideClassName......none
+14:10:21,225 [DEBUG] - healthCheckProperties...........{}
+14:10:21,225 [DEBUG] - healthCheckRegistry.............none
+14:10:21,225 [DEBUG] - idleTimeout.....................600000
+14:10:21,225 [DEBUG] - initializationFailTimeout.......1
+14:10:21,225 [DEBUG] - isolateInternalQueries..........false
+14:10:21,226 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159
+14:10:21,226 [DEBUG] - leakDetectionThreshold..........0
+14:10:21,226 [DEBUG] - maxLifetime.....................1800000
+14:10:21,226 [DEBUG] - maximumPoolSize.................10
+14:10:21,226 [DEBUG] - metricRegistry..................none
+14:10:21,226 [DEBUG] - metricsTrackerFactory...........none
+14:10:21,226 [DEBUG] - minimumIdle.....................10
+14:10:21,226 [DEBUG] - password........................<masked>
+14:10:21,226 [DEBUG] - poolName........................"HikariPool-1"
+14:10:21,227 [DEBUG] - readOnly........................false
+14:10:21,227 [DEBUG] - registerMbeans..................false
+14:10:21,227 [DEBUG] - scheduledExecutor...............none
+14:10:21,227 [DEBUG] - schema..........................none
+14:10:21,227 [DEBUG] - threadFactory...................internal
+14:10:21,227 [DEBUG] - transactionIsolation............default
+14:10:21,228 [DEBUG] - username........................none
+14:10:21,229 [DEBUG] - validationTimeout...............5000
+14:10:21,230 [ INFO] - HikariPool-1 - Starting...
+14:10:21,450 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,453 [ INFO] - HikariPool-1 - Start completed.
+14:10:21,554 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:10:21,559 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,560 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,560 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,560 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,560 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,560 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,561 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,561 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,561 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:e0a27a49-2dc2-4a7d-95a8-523dbdc03159 user=
+14:10:21,561 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:10:47,011 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:10:47,016 [DEBUG] - HikariPool-1 - configuration:
+14:10:47,021 [DEBUG] - allowPoolSuspension.............false
+14:10:47,021 [DEBUG] - autoCommit......................true
+14:10:47,021 [DEBUG] - catalog.........................none
+14:10:47,021 [DEBUG] - connectionInitSql...............none
+14:10:47,022 [DEBUG] - connectionTestQuery.............none
+14:10:47,022 [DEBUG] - connectionTimeout...............30000
+14:10:47,022 [DEBUG] - dataSource......................none
+14:10:47,022 [DEBUG] - dataSourceClassName.............none
+14:10:47,022 [DEBUG] - dataSourceJNDI..................none
+14:10:47,023 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:10:47,023 [DEBUG] - driverClassName................."org.h2.Driver"
+14:10:47,023 [DEBUG] - exceptionOverrideClassName......none
+14:10:47,024 [DEBUG] - healthCheckProperties...........{}
+14:10:47,024 [DEBUG] - healthCheckRegistry.............none
+14:10:47,024 [DEBUG] - idleTimeout.....................600000
+14:10:47,024 [DEBUG] - initializationFailTimeout.......1
+14:10:47,024 [DEBUG] - isolateInternalQueries..........false
+14:10:47,024 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44
+14:10:47,025 [DEBUG] - leakDetectionThreshold..........0
+14:10:47,025 [DEBUG] - maxLifetime.....................1800000
+14:10:47,025 [DEBUG] - maximumPoolSize.................10
+14:10:47,025 [DEBUG] - metricRegistry..................none
+14:10:47,025 [DEBUG] - metricsTrackerFactory...........none
+14:10:47,025 [DEBUG] - minimumIdle.....................10
+14:10:47,025 [DEBUG] - password........................<masked>
+14:10:47,025 [DEBUG] - poolName........................"HikariPool-1"
+14:10:47,025 [DEBUG] - readOnly........................false
+14:10:47,026 [DEBUG] - registerMbeans..................false
+14:10:47,026 [DEBUG] - scheduledExecutor...............none
+14:10:47,026 [DEBUG] - schema..........................none
+14:10:47,026 [DEBUG] - threadFactory...................internal
+14:10:47,026 [DEBUG] - transactionIsolation............default
+14:10:47,026 [DEBUG] - username........................none
+14:10:47,026 [DEBUG] - validationTimeout...............5000
+14:10:47,028 [ INFO] - HikariPool-1 - Starting...
+14:10:47,221 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,224 [ INFO] - HikariPool-1 - Start completed.
+14:10:47,332 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:10:47,336 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,337 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,337 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,338 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,338 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,338 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,338 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,338 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,339 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:cf27554f-e45a-4ac9-9eba-83bb479d5d44 user=
+14:10:47,339 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:11:14,553 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:11:14,559 [DEBUG] - HikariPool-1 - configuration:
+14:11:14,563 [DEBUG] - allowPoolSuspension.............false
+14:11:14,563 [DEBUG] - autoCommit......................true
+14:11:14,563 [DEBUG] - catalog.........................none
+14:11:14,563 [DEBUG] - connectionInitSql...............none
+14:11:14,563 [DEBUG] - connectionTestQuery.............none
+14:11:14,563 [DEBUG] - connectionTimeout...............30000
+14:11:14,564 [DEBUG] - dataSource......................none
+14:11:14,564 [DEBUG] - dataSourceClassName.............none
+14:11:14,564 [DEBUG] - dataSourceJNDI..................none
+14:11:14,564 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:11:14,565 [DEBUG] - driverClassName................."org.h2.Driver"
+14:11:14,565 [DEBUG] - exceptionOverrideClassName......none
+14:11:14,565 [DEBUG] - healthCheckProperties...........{}
+14:11:14,565 [DEBUG] - healthCheckRegistry.............none
+14:11:14,565 [DEBUG] - idleTimeout.....................600000
+14:11:14,565 [DEBUG] - initializationFailTimeout.......1
+14:11:14,565 [DEBUG] - isolateInternalQueries..........false
+14:11:14,566 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4
+14:11:14,566 [DEBUG] - leakDetectionThreshold..........0
+14:11:14,566 [DEBUG] - maxLifetime.....................1800000
+14:11:14,566 [DEBUG] - maximumPoolSize.................10
+14:11:14,566 [DEBUG] - metricRegistry..................none
+14:11:14,566 [DEBUG] - metricsTrackerFactory...........none
+14:11:14,566 [DEBUG] - minimumIdle.....................10
+14:11:14,567 [DEBUG] - password........................<masked>
+14:11:14,567 [DEBUG] - poolName........................"HikariPool-1"
+14:11:14,567 [DEBUG] - readOnly........................false
+14:11:14,567 [DEBUG] - registerMbeans..................false
+14:11:14,567 [DEBUG] - scheduledExecutor...............none
+14:11:14,567 [DEBUG] - schema..........................none
+14:11:14,567 [DEBUG] - threadFactory...................internal
+14:11:14,568 [DEBUG] - transactionIsolation............default
+14:11:14,568 [DEBUG] - username........................none
+14:11:14,568 [DEBUG] - validationTimeout...............5000
+14:11:14,569 [ INFO] - HikariPool-1 - Starting...
+14:11:14,764 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,767 [ INFO] - HikariPool-1 - Start completed.
+14:11:14,872 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:11:14,879 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,880 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,880 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,880 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,880 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,881 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,881 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,881 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,881 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:a51f8a18-0861-4193-9424-9ecf2206c7a4 user=
+14:11:14,881 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:19:41,218 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:19:41,224 [DEBUG] - HikariPool-1 - configuration:
+14:19:41,228 [DEBUG] - allowPoolSuspension.............false
+14:19:41,229 [DEBUG] - autoCommit......................true
+14:19:41,229 [DEBUG] - catalog.........................none
+14:19:41,229 [DEBUG] - connectionInitSql...............none
+14:19:41,229 [DEBUG] - connectionTestQuery.............none
+14:19:41,229 [DEBUG] - connectionTimeout...............30000
+14:19:41,230 [DEBUG] - dataSource......................none
+14:19:41,230 [DEBUG] - dataSourceClassName.............none
+14:19:41,230 [DEBUG] - dataSourceJNDI..................none
+14:19:41,231 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:19:41,231 [DEBUG] - driverClassName................."org.h2.Driver"
+14:19:41,231 [DEBUG] - exceptionOverrideClassName......none
+14:19:41,231 [DEBUG] - healthCheckProperties...........{}
+14:19:41,231 [DEBUG] - healthCheckRegistry.............none
+14:19:41,231 [DEBUG] - idleTimeout.....................600000
+14:19:41,231 [DEBUG] - initializationFailTimeout.......1
+14:19:41,231 [DEBUG] - isolateInternalQueries..........false
+14:19:41,232 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2
+14:19:41,232 [DEBUG] - leakDetectionThreshold..........0
+14:19:41,232 [DEBUG] - maxLifetime.....................1800000
+14:19:41,232 [DEBUG] - maximumPoolSize.................10
+14:19:41,232 [DEBUG] - metricRegistry..................none
+14:19:41,232 [DEBUG] - metricsTrackerFactory...........none
+14:19:41,232 [DEBUG] - minimumIdle.....................10
+14:19:41,232 [DEBUG] - password........................<masked>
+14:19:41,232 [DEBUG] - poolName........................"HikariPool-1"
+14:19:41,232 [DEBUG] - readOnly........................false
+14:19:41,233 [DEBUG] - registerMbeans..................false
+14:19:41,233 [DEBUG] - scheduledExecutor...............none
+14:19:41,233 [DEBUG] - schema..........................none
+14:19:41,233 [DEBUG] - threadFactory...................internal
+14:19:41,233 [DEBUG] - transactionIsolation............default
+14:19:41,233 [DEBUG] - username........................none
+14:19:41,233 [DEBUG] - validationTimeout...............5000
+14:19:41,234 [ INFO] - HikariPool-1 - Starting...
+14:19:41,437 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,439 [ INFO] - HikariPool-1 - Start completed.
+14:19:41,541 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:19:41,548 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,548 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,549 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,549 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,549 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,550 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,550 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,550 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,550 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:28e32e0f-01c2-4fd7-a3b0-66a128d10bc2 user=
+14:19:41,550 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:23:01,085 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:23:01,092 [DEBUG] - HikariPool-1 - configuration:
+14:23:01,097 [DEBUG] - allowPoolSuspension.............false
+14:23:01,097 [DEBUG] - autoCommit......................true
+14:23:01,097 [DEBUG] - catalog.........................none
+14:23:01,097 [DEBUG] - connectionInitSql...............none
+14:23:01,097 [DEBUG] - connectionTestQuery.............none
+14:23:01,097 [DEBUG] - connectionTimeout...............30000
+14:23:01,097 [DEBUG] - dataSource......................none
+14:23:01,097 [DEBUG] - dataSourceClassName.............none
+14:23:01,098 [DEBUG] - dataSourceJNDI..................none
+14:23:01,099 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:23:01,099 [DEBUG] - driverClassName................."org.h2.Driver"
+14:23:01,099 [DEBUG] - exceptionOverrideClassName......none
+14:23:01,099 [DEBUG] - healthCheckProperties...........{}
+14:23:01,099 [DEBUG] - healthCheckRegistry.............none
+14:23:01,099 [DEBUG] - idleTimeout.....................600000
+14:23:01,100 [DEBUG] - initializationFailTimeout.......1
+14:23:01,100 [DEBUG] - isolateInternalQueries..........false
+14:23:01,100 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb
+14:23:01,100 [DEBUG] - leakDetectionThreshold..........0
+14:23:01,100 [DEBUG] - maxLifetime.....................1800000
+14:23:01,100 [DEBUG] - maximumPoolSize.................10
+14:23:01,100 [DEBUG] - metricRegistry..................none
+14:23:01,101 [DEBUG] - metricsTrackerFactory...........none
+14:23:01,101 [DEBUG] - minimumIdle.....................10
+14:23:01,101 [DEBUG] - password........................<masked>
+14:23:01,101 [DEBUG] - poolName........................"HikariPool-1"
+14:23:01,101 [DEBUG] - readOnly........................false
+14:23:01,101 [DEBUG] - registerMbeans..................false
+14:23:01,101 [DEBUG] - scheduledExecutor...............none
+14:23:01,102 [DEBUG] - schema..........................none
+14:23:01,102 [DEBUG] - threadFactory...................internal
+14:23:01,102 [DEBUG] - transactionIsolation............default
+14:23:01,102 [DEBUG] - username........................none
+14:23:01,102 [DEBUG] - validationTimeout...............5000
+14:23:01,104 [ INFO] - HikariPool-1 - Starting...
+14:23:01,307 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,309 [ INFO] - HikariPool-1 - Start completed.
+14:23:01,413 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:23:01,420 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,421 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,421 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,421 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,422 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,422 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,422 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,423 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,423 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:194e33d6-7d6c-41f2-8e4d-06e29ee2f2bb user=
+14:23:01,423 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:24:20,626 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:24:20,632 [DEBUG] - HikariPool-1 - configuration:
+14:24:20,636 [DEBUG] - allowPoolSuspension.............false
+14:24:20,637 [DEBUG] - autoCommit......................true
+14:24:20,637 [DEBUG] - catalog.........................none
+14:24:20,637 [DEBUG] - connectionInitSql...............none
+14:24:20,637 [DEBUG] - connectionTestQuery.............none
+14:24:20,637 [DEBUG] - connectionTimeout...............30000
+14:24:20,637 [DEBUG] - dataSource......................none
+14:24:20,637 [DEBUG] - dataSourceClassName.............none
+14:24:20,637 [DEBUG] - dataSourceJNDI..................none
+14:24:20,638 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:24:20,638 [DEBUG] - driverClassName................."org.h2.Driver"
+14:24:20,639 [DEBUG] - exceptionOverrideClassName......none
+14:24:20,639 [DEBUG] - healthCheckProperties...........{}
+14:24:20,639 [DEBUG] - healthCheckRegistry.............none
+14:24:20,639 [DEBUG] - idleTimeout.....................600000
+14:24:20,639 [DEBUG] - initializationFailTimeout.......1
+14:24:20,639 [DEBUG] - isolateInternalQueries..........false
+14:24:20,640 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7
+14:24:20,640 [DEBUG] - leakDetectionThreshold..........0
+14:24:20,640 [DEBUG] - maxLifetime.....................1800000
+14:24:20,640 [DEBUG] - maximumPoolSize.................10
+14:24:20,640 [DEBUG] - metricRegistry..................none
+14:24:20,640 [DEBUG] - metricsTrackerFactory...........none
+14:24:20,640 [DEBUG] - minimumIdle.....................10
+14:24:20,640 [DEBUG] - password........................<masked>
+14:24:20,640 [DEBUG] - poolName........................"HikariPool-1"
+14:24:20,641 [DEBUG] - readOnly........................false
+14:24:20,641 [DEBUG] - registerMbeans..................false
+14:24:20,641 [DEBUG] - scheduledExecutor...............none
+14:24:20,641 [DEBUG] - schema..........................none
+14:24:20,641 [DEBUG] - threadFactory...................internal
+14:24:20,641 [DEBUG] - transactionIsolation............default
+14:24:20,641 [DEBUG] - username........................none
+14:24:20,641 [DEBUG] - validationTimeout...............5000
+14:24:20,643 [ INFO] - HikariPool-1 - Starting...
+14:24:20,838 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,841 [ INFO] - HikariPool-1 - Start completed.
+14:24:20,954 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:24:20,959 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,959 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,960 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,960 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,960 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,960 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,961 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,961 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,961 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:785a66e6-16f5-4b5c-8d3f-1102a525e6f7 user=
+14:24:20,961 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:27:05,385 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:27:05,391 [DEBUG] - HikariPool-1 - configuration:
+14:27:05,395 [DEBUG] - allowPoolSuspension.............false
+14:27:05,395 [DEBUG] - autoCommit......................true
+14:27:05,395 [DEBUG] - catalog.........................none
+14:27:05,395 [DEBUG] - connectionInitSql...............none
+14:27:05,396 [DEBUG] - connectionTestQuery.............none
+14:27:05,396 [DEBUG] - connectionTimeout...............30000
+14:27:05,396 [DEBUG] - dataSource......................none
+14:27:05,396 [DEBUG] - dataSourceClassName.............none
+14:27:05,396 [DEBUG] - dataSourceJNDI..................none
+14:27:05,397 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:27:05,397 [DEBUG] - driverClassName................."org.h2.Driver"
+14:27:05,397 [DEBUG] - exceptionOverrideClassName......none
+14:27:05,397 [DEBUG] - healthCheckProperties...........{}
+14:27:05,397 [DEBUG] - healthCheckRegistry.............none
+14:27:05,398 [DEBUG] - idleTimeout.....................600000
+14:27:05,398 [DEBUG] - initializationFailTimeout.......1
+14:27:05,398 [DEBUG] - isolateInternalQueries..........false
+14:27:05,398 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811
+14:27:05,398 [DEBUG] - leakDetectionThreshold..........0
+14:27:05,398 [DEBUG] - maxLifetime.....................1800000
+14:27:05,398 [DEBUG] - maximumPoolSize.................10
+14:27:05,399 [DEBUG] - metricRegistry..................none
+14:27:05,399 [DEBUG] - metricsTrackerFactory...........none
+14:27:05,399 [DEBUG] - minimumIdle.....................10
+14:27:05,399 [DEBUG] - password........................<masked>
+14:27:05,399 [DEBUG] - poolName........................"HikariPool-1"
+14:27:05,400 [DEBUG] - readOnly........................false
+14:27:05,400 [DEBUG] - registerMbeans..................false
+14:27:05,400 [DEBUG] - scheduledExecutor...............none
+14:27:05,400 [DEBUG] - schema..........................none
+14:27:05,400 [DEBUG] - threadFactory...................internal
+14:27:05,400 [DEBUG] - transactionIsolation............default
+14:27:05,400 [DEBUG] - username........................none
+14:27:05,401 [DEBUG] - validationTimeout...............5000
+14:27:05,402 [ INFO] - HikariPool-1 - Starting...
+14:27:05,612 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,615 [ INFO] - HikariPool-1 - Start completed.
+14:27:05,727 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:27:05,731 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,732 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,732 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,733 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,733 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,733 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,733 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,733 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,734 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:fd4752be-113a-4fcb-a1df-cede9993d811 user=
+14:27:05,734 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:27:23,085 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:27:23,090 [DEBUG] - HikariPool-1 - configuration:
+14:27:23,094 [DEBUG] - allowPoolSuspension.............false
+14:27:23,094 [DEBUG] - autoCommit......................true
+14:27:23,094 [DEBUG] - catalog.........................none
+14:27:23,094 [DEBUG] - connectionInitSql...............none
+14:27:23,094 [DEBUG] - connectionTestQuery.............none
+14:27:23,094 [DEBUG] - connectionTimeout...............30000
+14:27:23,094 [DEBUG] - dataSource......................none
+14:27:23,094 [DEBUG] - dataSourceClassName.............none
+14:27:23,095 [DEBUG] - dataSourceJNDI..................none
+14:27:23,095 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:27:23,095 [DEBUG] - driverClassName................."org.h2.Driver"
+14:27:23,095 [DEBUG] - exceptionOverrideClassName......none
+14:27:23,096 [DEBUG] - healthCheckProperties...........{}
+14:27:23,096 [DEBUG] - healthCheckRegistry.............none
+14:27:23,096 [DEBUG] - idleTimeout.....................600000
+14:27:23,096 [DEBUG] - initializationFailTimeout.......1
+14:27:23,096 [DEBUG] - isolateInternalQueries..........false
+14:27:23,096 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869
+14:27:23,096 [DEBUG] - leakDetectionThreshold..........0
+14:27:23,096 [DEBUG] - maxLifetime.....................1800000
+14:27:23,096 [DEBUG] - maximumPoolSize.................10
+14:27:23,096 [DEBUG] - metricRegistry..................none
+14:27:23,097 [DEBUG] - metricsTrackerFactory...........none
+14:27:23,097 [DEBUG] - minimumIdle.....................10
+14:27:23,097 [DEBUG] - password........................<masked>
+14:27:23,097 [DEBUG] - poolName........................"HikariPool-1"
+14:27:23,097 [DEBUG] - readOnly........................false
+14:27:23,097 [DEBUG] - registerMbeans..................false
+14:27:23,097 [DEBUG] - scheduledExecutor...............none
+14:27:23,097 [DEBUG] - schema..........................none
+14:27:23,098 [DEBUG] - threadFactory...................internal
+14:27:23,098 [DEBUG] - transactionIsolation............default
+14:27:23,098 [DEBUG] - username........................none
+14:27:23,098 [DEBUG] - validationTimeout...............5000
+14:27:23,099 [ INFO] - HikariPool-1 - Starting...
+14:27:23,288 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,290 [ INFO] - HikariPool-1 - Start completed.
+14:27:23,399 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:27:23,404 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,405 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,406 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,406 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,406 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,407 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,407 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,407 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,407 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:1bfc6446-e686-40a1-823f-2a017fc95869 user=
+14:27:23,407 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:28:19,627 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:28:19,632 [DEBUG] - HikariPool-1 - configuration:
+14:28:19,636 [DEBUG] - allowPoolSuspension.............false
+14:28:19,636 [DEBUG] - autoCommit......................true
+14:28:19,636 [DEBUG] - catalog.........................none
+14:28:19,636 [DEBUG] - connectionInitSql...............none
+14:28:19,636 [DEBUG] - connectionTestQuery.............none
+14:28:19,636 [DEBUG] - connectionTimeout...............30000
+14:28:19,637 [DEBUG] - dataSource......................none
+14:28:19,637 [DEBUG] - dataSourceClassName.............none
+14:28:19,637 [DEBUG] - dataSourceJNDI..................none
+14:28:19,637 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:28:19,638 [DEBUG] - driverClassName................."org.h2.Driver"
+14:28:19,638 [DEBUG] - exceptionOverrideClassName......none
+14:28:19,638 [DEBUG] - healthCheckProperties...........{}
+14:28:19,638 [DEBUG] - healthCheckRegistry.............none
+14:28:19,638 [DEBUG] - idleTimeout.....................600000
+14:28:19,638 [DEBUG] - initializationFailTimeout.......1
+14:28:19,638 [DEBUG] - isolateInternalQueries..........false
+14:28:19,638 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1
+14:28:19,638 [DEBUG] - leakDetectionThreshold..........0
+14:28:19,638 [DEBUG] - maxLifetime.....................1800000
+14:28:19,639 [DEBUG] - maximumPoolSize.................10
+14:28:19,639 [DEBUG] - metricRegistry..................none
+14:28:19,639 [DEBUG] - metricsTrackerFactory...........none
+14:28:19,639 [DEBUG] - minimumIdle.....................10
+14:28:19,639 [DEBUG] - password........................<masked>
+14:28:19,639 [DEBUG] - poolName........................"HikariPool-1"
+14:28:19,639 [DEBUG] - readOnly........................false
+14:28:19,639 [DEBUG] - registerMbeans..................false
+14:28:19,639 [DEBUG] - scheduledExecutor...............none
+14:28:19,639 [DEBUG] - schema..........................none
+14:28:19,639 [DEBUG] - threadFactory...................internal
+14:28:19,640 [DEBUG] - transactionIsolation............default
+14:28:19,640 [DEBUG] - username........................none
+14:28:19,640 [DEBUG] - validationTimeout...............5000
+14:28:19,641 [ INFO] - HikariPool-1 - Starting...
+14:28:19,825 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,827 [ INFO] - HikariPool-1 - Start completed.
+14:28:19,897 [ERROR] - ERROR: SQLException when save data to Database
+14:28:19,938 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:28:19,944 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,945 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,945 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,946 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,946 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,946 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,947 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,947 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,947 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:6e4048c5-b83e-4800-8908-c52ae22f1ef1 user=
+14:28:19,947 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:28:45,448 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:28:45,454 [DEBUG] - HikariPool-1 - configuration:
+14:28:45,458 [DEBUG] - allowPoolSuspension.............false
+14:28:45,458 [DEBUG] - autoCommit......................true
+14:28:45,458 [DEBUG] - catalog.........................none
+14:28:45,458 [DEBUG] - connectionInitSql...............none
+14:28:45,458 [DEBUG] - connectionTestQuery.............none
+14:28:45,458 [DEBUG] - connectionTimeout...............30000
+14:28:45,459 [DEBUG] - dataSource......................none
+14:28:45,459 [DEBUG] - dataSourceClassName.............none
+14:28:45,459 [DEBUG] - dataSourceJNDI..................none
+14:28:45,460 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:28:45,460 [DEBUG] - driverClassName................."org.h2.Driver"
+14:28:45,460 [DEBUG] - exceptionOverrideClassName......none
+14:28:45,460 [DEBUG] - healthCheckProperties...........{}
+14:28:45,460 [DEBUG] - healthCheckRegistry.............none
+14:28:45,461 [DEBUG] - idleTimeout.....................600000
+14:28:45,461 [DEBUG] - initializationFailTimeout.......1
+14:28:45,461 [DEBUG] - isolateInternalQueries..........false
+14:28:45,461 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6
+14:28:45,461 [DEBUG] - leakDetectionThreshold..........0
+14:28:45,461 [DEBUG] - maxLifetime.....................1800000
+14:28:45,462 [DEBUG] - maximumPoolSize.................10
+14:28:45,462 [DEBUG] - metricRegistry..................none
+14:28:45,462 [DEBUG] - metricsTrackerFactory...........none
+14:28:45,462 [DEBUG] - minimumIdle.....................10
+14:28:45,462 [DEBUG] - password........................<masked>
+14:28:45,462 [DEBUG] - poolName........................"HikariPool-1"
+14:28:45,462 [DEBUG] - readOnly........................false
+14:28:45,463 [DEBUG] - registerMbeans..................false
+14:28:45,463 [DEBUG] - scheduledExecutor...............none
+14:28:45,463 [DEBUG] - schema..........................none
+14:28:45,463 [DEBUG] - threadFactory...................internal
+14:28:45,463 [DEBUG] - transactionIsolation............default
+14:28:45,463 [DEBUG] - username........................none
+14:28:45,463 [DEBUG] - validationTimeout...............5000
+14:28:45,465 [ INFO] - HikariPool-1 - Starting...
+14:28:45,687 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,690 [ INFO] - HikariPool-1 - Start completed.
+14:28:45,757 [ERROR] - ERROR: SQLException when save data to Database
+14:28:45,791 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:28:45,796 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,796 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,797 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,797 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,797 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,797 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,798 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,798 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,798 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:0436bbf2-a26f-492f-b36e-ca9f1bb0fac6 user=
+14:28:45,798 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:30:37,116 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:30:37,121 [DEBUG] - HikariPool-1 - configuration:
+14:30:37,124 [DEBUG] - allowPoolSuspension.............false
+14:30:37,124 [DEBUG] - autoCommit......................true
+14:30:37,124 [DEBUG] - catalog.........................none
+14:30:37,124 [DEBUG] - connectionInitSql...............none
+14:30:37,125 [DEBUG] - connectionTestQuery.............none
+14:30:37,125 [DEBUG] - connectionTimeout...............30000
+14:30:37,125 [DEBUG] - dataSource......................none
+14:30:37,125 [DEBUG] - dataSourceClassName.............none
+14:30:37,125 [DEBUG] - dataSourceJNDI..................none
+14:30:37,126 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:30:37,126 [DEBUG] - driverClassName................."org.h2.Driver"
+14:30:37,126 [DEBUG] - exceptionOverrideClassName......none
+14:30:37,126 [DEBUG] - healthCheckProperties...........{}
+14:30:37,126 [DEBUG] - healthCheckRegistry.............none
+14:30:37,126 [DEBUG] - idleTimeout.....................600000
+14:30:37,126 [DEBUG] - initializationFailTimeout.......1
+14:30:37,127 [DEBUG] - isolateInternalQueries..........false
+14:30:37,127 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528
+14:30:37,127 [DEBUG] - leakDetectionThreshold..........0
+14:30:37,127 [DEBUG] - maxLifetime.....................1800000
+14:30:37,127 [DEBUG] - maximumPoolSize.................10
+14:30:37,127 [DEBUG] - metricRegistry..................none
+14:30:37,127 [DEBUG] - metricsTrackerFactory...........none
+14:30:37,127 [DEBUG] - minimumIdle.....................10
+14:30:37,127 [DEBUG] - password........................<masked>
+14:30:37,127 [DEBUG] - poolName........................"HikariPool-1"
+14:30:37,128 [DEBUG] - readOnly........................false
+14:30:37,128 [DEBUG] - registerMbeans..................false
+14:30:37,128 [DEBUG] - scheduledExecutor...............none
+14:30:37,128 [DEBUG] - schema..........................none
+14:30:37,128 [DEBUG] - threadFactory...................internal
+14:30:37,128 [DEBUG] - transactionIsolation............default
+14:30:37,128 [DEBUG] - username........................none
+14:30:37,128 [DEBUG] - validationTimeout...............5000
+14:30:37,129 [ INFO] - HikariPool-1 - Starting...
+14:30:37,330 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,332 [ INFO] - HikariPool-1 - Start completed.
+14:30:37,441 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:30:37,453 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,455 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,455 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,456 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,456 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,456 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,456 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,457 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,457 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:ec017b25-83f4-4fee-a660-241613717528 user=
+14:30:37,457 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:30:47,409 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:30:47,414 [DEBUG] - HikariPool-1 - configuration:
+14:30:47,418 [DEBUG] - allowPoolSuspension.............false
+14:30:47,418 [DEBUG] - autoCommit......................true
+14:30:47,419 [DEBUG] - catalog.........................none
+14:30:47,419 [DEBUG] - connectionInitSql...............none
+14:30:47,419 [DEBUG] - connectionTestQuery.............none
+14:30:47,419 [DEBUG] - connectionTimeout...............30000
+14:30:47,419 [DEBUG] - dataSource......................none
+14:30:47,419 [DEBUG] - dataSourceClassName.............none
+14:30:47,419 [DEBUG] - dataSourceJNDI..................none
+14:30:47,420 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:30:47,420 [DEBUG] - driverClassName................."org.h2.Driver"
+14:30:47,420 [DEBUG] - exceptionOverrideClassName......none
+14:30:47,421 [DEBUG] - healthCheckProperties...........{}
+14:30:47,421 [DEBUG] - healthCheckRegistry.............none
+14:30:47,421 [DEBUG] - idleTimeout.....................600000
+14:30:47,421 [DEBUG] - initializationFailTimeout.......1
+14:30:47,421 [DEBUG] - isolateInternalQueries..........false
+14:30:47,422 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a
+14:30:47,422 [DEBUG] - leakDetectionThreshold..........0
+14:30:47,422 [DEBUG] - maxLifetime.....................1800000
+14:30:47,422 [DEBUG] - maximumPoolSize.................10
+14:30:47,422 [DEBUG] - metricRegistry..................none
+14:30:47,422 [DEBUG] - metricsTrackerFactory...........none
+14:30:47,422 [DEBUG] - minimumIdle.....................10
+14:30:47,423 [DEBUG] - password........................<masked>
+14:30:47,423 [DEBUG] - poolName........................"HikariPool-1"
+14:30:47,423 [DEBUG] - readOnly........................false
+14:30:47,423 [DEBUG] - registerMbeans..................false
+14:30:47,423 [DEBUG] - scheduledExecutor...............none
+14:30:47,423 [DEBUG] - schema..........................none
+14:30:47,423 [DEBUG] - threadFactory...................internal
+14:30:47,423 [DEBUG] - transactionIsolation............default
+14:30:47,424 [DEBUG] - username........................none
+14:30:47,424 [DEBUG] - validationTimeout...............5000
+14:30:47,425 [ INFO] - HikariPool-1 - Starting...
+14:30:47,633 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,635 [ INFO] - HikariPool-1 - Start completed.
+14:30:47,749 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:30:47,755 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,755 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,756 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,756 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,756 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,756 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,756 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,757 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,757 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:fe324bf4-b3e0-4e9e-8d46-71a86f31f59a user=
+14:30:47,757 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:31:03,883 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:31:03,890 [DEBUG] - HikariPool-1 - configuration:
+14:31:03,895 [DEBUG] - allowPoolSuspension.............false
+14:31:03,895 [DEBUG] - autoCommit......................true
+14:31:03,895 [DEBUG] - catalog.........................none
+14:31:03,895 [DEBUG] - connectionInitSql...............none
+14:31:03,895 [DEBUG] - connectionTestQuery.............none
+14:31:03,895 [DEBUG] - connectionTimeout...............30000
+14:31:03,896 [DEBUG] - dataSource......................none
+14:31:03,896 [DEBUG] - dataSourceClassName.............none
+14:31:03,896 [DEBUG] - dataSourceJNDI..................none
+14:31:03,897 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:31:03,897 [DEBUG] - driverClassName................."org.h2.Driver"
+14:31:03,897 [DEBUG] - exceptionOverrideClassName......none
+14:31:03,897 [DEBUG] - healthCheckProperties...........{}
+14:31:03,897 [DEBUG] - healthCheckRegistry.............none
+14:31:03,898 [DEBUG] - idleTimeout.....................600000
+14:31:03,898 [DEBUG] - initializationFailTimeout.......1
+14:31:03,898 [DEBUG] - isolateInternalQueries..........false
+14:31:03,898 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072
+14:31:03,898 [DEBUG] - leakDetectionThreshold..........0
+14:31:03,898 [DEBUG] - maxLifetime.....................1800000
+14:31:03,899 [DEBUG] - maximumPoolSize.................10
+14:31:03,899 [DEBUG] - metricRegistry..................none
+14:31:03,899 [DEBUG] - metricsTrackerFactory...........none
+14:31:03,899 [DEBUG] - minimumIdle.....................10
+14:31:03,899 [DEBUG] - password........................<masked>
+14:31:03,899 [DEBUG] - poolName........................"HikariPool-1"
+14:31:03,900 [DEBUG] - readOnly........................false
+14:31:03,900 [DEBUG] - registerMbeans..................false
+14:31:03,900 [DEBUG] - scheduledExecutor...............none
+14:31:03,900 [DEBUG] - schema..........................none
+14:31:03,900 [DEBUG] - threadFactory...................internal
+14:31:03,901 [DEBUG] - transactionIsolation............default
+14:31:03,901 [DEBUG] - username........................none
+14:31:03,901 [DEBUG] - validationTimeout...............5000
+14:31:03,902 [ INFO] - HikariPool-1 - Starting...
+14:31:04,109 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,111 [ INFO] - HikariPool-1 - Start completed.
+14:31:04,215 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:31:04,221 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,221 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,222 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,222 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,222 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,223 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,223 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,223 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,223 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:7eac5211-6a9a-4be0-ac4c-e6ff1d8fb072 user=
+14:31:04,223 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:31:15,926 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:31:15,931 [DEBUG] - HikariPool-1 - configuration:
+14:31:15,936 [DEBUG] - allowPoolSuspension.............false
+14:31:15,936 [DEBUG] - autoCommit......................true
+14:31:15,936 [DEBUG] - catalog.........................none
+14:31:15,936 [DEBUG] - connectionInitSql...............none
+14:31:15,936 [DEBUG] - connectionTestQuery.............none
+14:31:15,936 [DEBUG] - connectionTimeout...............30000
+14:31:15,937 [DEBUG] - dataSource......................none
+14:31:15,937 [DEBUG] - dataSourceClassName.............none
+14:31:15,937 [DEBUG] - dataSourceJNDI..................none
+14:31:15,938 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:31:15,938 [DEBUG] - driverClassName................."org.h2.Driver"
+14:31:15,938 [DEBUG] - exceptionOverrideClassName......none
+14:31:15,938 [DEBUG] - healthCheckProperties...........{}
+14:31:15,938 [DEBUG] - healthCheckRegistry.............none
+14:31:15,939 [DEBUG] - idleTimeout.....................600000
+14:31:15,939 [DEBUG] - initializationFailTimeout.......1
+14:31:15,939 [DEBUG] - isolateInternalQueries..........false
+14:31:15,939 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92
+14:31:15,939 [DEBUG] - leakDetectionThreshold..........0
+14:31:15,939 [DEBUG] - maxLifetime.....................1800000
+14:31:15,939 [DEBUG] - maximumPoolSize.................10
+14:31:15,940 [DEBUG] - metricRegistry..................none
+14:31:15,940 [DEBUG] - metricsTrackerFactory...........none
+14:31:15,940 [DEBUG] - minimumIdle.....................10
+14:31:15,940 [DEBUG] - password........................<masked>
+14:31:15,940 [DEBUG] - poolName........................"HikariPool-1"
+14:31:15,940 [DEBUG] - readOnly........................false
+14:31:15,940 [DEBUG] - registerMbeans..................false
+14:31:15,940 [DEBUG] - scheduledExecutor...............none
+14:31:15,941 [DEBUG] - schema..........................none
+14:31:15,941 [DEBUG] - threadFactory...................internal
+14:31:15,941 [DEBUG] - transactionIsolation............default
+14:31:15,941 [DEBUG] - username........................none
+14:31:15,941 [DEBUG] - validationTimeout...............5000
+14:31:15,943 [ INFO] - HikariPool-1 - Starting...
+14:31:16,149 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,152 [ INFO] - HikariPool-1 - Start completed.
+14:31:16,257 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:31:16,263 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,264 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,264 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,265 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,265 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,265 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,265 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,266 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,266 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:1681b112-2306-42d5-9e4a-82158fde4d92 user=
+14:31:16,266 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+14:55:30,978 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+14:55:30,986 [DEBUG] - HikariPool-1 - configuration:
+14:55:30,992 [DEBUG] - allowPoolSuspension.............false
+14:55:30,992 [DEBUG] - autoCommit......................true
+14:55:30,992 [DEBUG] - catalog.........................none
+14:55:30,992 [DEBUG] - connectionInitSql...............none
+14:55:30,992 [DEBUG] - connectionTestQuery.............none
+14:55:30,993 [DEBUG] - connectionTimeout...............30000
+14:55:30,993 [DEBUG] - dataSource......................none
+14:55:30,993 [DEBUG] - dataSourceClassName.............none
+14:55:30,993 [DEBUG] - dataSourceJNDI..................none
+14:55:30,994 [DEBUG] - dataSourceProperties............{password=<masked>}
+14:55:30,995 [DEBUG] - driverClassName................."org.h2.Driver"
+14:55:30,995 [DEBUG] - exceptionOverrideClassName......none
+14:55:30,995 [DEBUG] - healthCheckProperties...........{}
+14:55:30,995 [DEBUG] - healthCheckRegistry.............none
+14:55:30,995 [DEBUG] - idleTimeout.....................600000
+14:55:30,996 [DEBUG] - initializationFailTimeout.......1
+14:55:30,996 [DEBUG] - isolateInternalQueries..........false
+14:55:30,996 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2
+14:55:30,996 [DEBUG] - leakDetectionThreshold..........0
+14:55:30,996 [DEBUG] - maxLifetime.....................1800000
+14:55:30,997 [DEBUG] - maximumPoolSize.................10
+14:55:30,997 [DEBUG] - metricRegistry..................none
+14:55:30,997 [DEBUG] - metricsTrackerFactory...........none
+14:55:30,997 [DEBUG] - minimumIdle.....................10
+14:55:30,997 [DEBUG] - password........................<masked>
+14:55:30,997 [DEBUG] - poolName........................"HikariPool-1"
+14:55:30,997 [DEBUG] - readOnly........................false
+14:55:30,998 [DEBUG] - registerMbeans..................false
+14:55:30,998 [DEBUG] - scheduledExecutor...............none
+14:55:30,998 [DEBUG] - schema..........................none
+14:55:30,998 [DEBUG] - threadFactory...................internal
+14:55:30,998 [DEBUG] - transactionIsolation............default
+14:55:30,998 [DEBUG] - username........................none
+14:55:30,998 [DEBUG] - validationTimeout...............5000
+14:55:31,000 [ INFO] - HikariPool-1 - Starting...
+14:55:31,223 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,225 [ INFO] - HikariPool-1 - Start completed.
+14:55:31,289 [DEBUG] - HikariPool-1 - Reset (autoCommit) on connection conn0: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,328 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+14:55:31,342 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,346 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,346 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,346 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,347 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,347 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,347 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,348 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,348 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:ff580ba0-7c1f-420f-aaab-bbc83829e0f2 user=
+14:55:31,348 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+15:04:26,148 [DEBUG] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+15:04:26,153 [DEBUG] - HikariPool-1 - configuration:
+15:04:26,157 [DEBUG] - allowPoolSuspension.............false
+15:04:26,157 [DEBUG] - autoCommit......................true
+15:04:26,157 [DEBUG] - catalog.........................none
+15:04:26,158 [DEBUG] - connectionInitSql...............none
+15:04:26,158 [DEBUG] - connectionTestQuery.............none
+15:04:26,158 [DEBUG] - connectionTimeout...............30000
+15:04:26,158 [DEBUG] - dataSource......................none
+15:04:26,158 [DEBUG] - dataSourceClassName.............none
+15:04:26,158 [DEBUG] - dataSourceJNDI..................none
+15:04:26,159 [DEBUG] - dataSourceProperties............{password=<masked>}
+15:04:26,159 [DEBUG] - driverClassName................."org.h2.Driver"
+15:04:26,159 [DEBUG] - exceptionOverrideClassName......none
+15:04:26,159 [DEBUG] - healthCheckProperties...........{}
+15:04:26,159 [DEBUG] - healthCheckRegistry.............none
+15:04:26,160 [DEBUG] - idleTimeout.....................600000
+15:04:26,160 [DEBUG] - initializationFailTimeout.......1
+15:04:26,160 [DEBUG] - isolateInternalQueries..........false
+15:04:26,160 [DEBUG] - jdbcUrl.........................jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691
+15:04:26,160 [DEBUG] - leakDetectionThreshold..........0
+15:04:26,160 [DEBUG] - maxLifetime.....................1800000
+15:04:26,161 [DEBUG] - maximumPoolSize.................10
+15:04:26,161 [DEBUG] - metricRegistry..................none
+15:04:26,161 [DEBUG] - metricsTrackerFactory...........none
+15:04:26,161 [DEBUG] - minimumIdle.....................10
+15:04:26,161 [DEBUG] - password........................<masked>
+15:04:26,161 [DEBUG] - poolName........................"HikariPool-1"
+15:04:26,161 [DEBUG] - readOnly........................false
+15:04:26,161 [DEBUG] - registerMbeans..................false
+15:04:26,161 [DEBUG] - scheduledExecutor...............none
+15:04:26,161 [DEBUG] - schema..........................none
+15:04:26,162 [DEBUG] - threadFactory...................internal
+15:04:26,162 [DEBUG] - transactionIsolation............default
+15:04:26,162 [DEBUG] - username........................none
+15:04:26,162 [DEBUG] - validationTimeout...............5000
+15:04:26,163 [ INFO] - HikariPool-1 - Starting...
+15:04:26,354 [DEBUG] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,356 [ INFO] - HikariPool-1 - Start completed.
+15:04:26,414 [DEBUG] - HikariPool-1 - Reset (autoCommit) on connection conn0: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,470 [DEBUG] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+15:04:26,476 [DEBUG] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,477 [DEBUG] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,477 [DEBUG] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,477 [DEBUG] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,478 [DEBUG] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,478 [DEBUG] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,478 [DEBUG] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,478 [DEBUG] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,479 [DEBUG] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:d2ca793a-4fff-40aa-b888-e21b892d1691 user=
+15:04:26,479 [DEBUG] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)

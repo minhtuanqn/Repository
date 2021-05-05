@@ -96,4 +96,58 @@ public class Staff {
                 ", address='" + address + '\'' +
                 '}';
     }
+
+    public static class Builder {
+        private Integer id;
+        private String firstName;
+        private String middleName;
+        private String lastName;
+        private LocalDateTime dob;
+        private String phone;
+        private String address;
+
+        public Builder(Integer id) {
+            this.id = id;
+        }
+
+        public Builder hasFirstName(String firstName) {
+            this.firstName = firstName;
+            return this;
+        }
+
+        public Builder withMiddleName(String middleName) {
+            this.middleName = middleName;
+            return this;
+        }
+
+        public Builder andLastName(String lastName) {
+            this.lastName = lastName;
+            return this;
+        }
+
+        public Builder wasBorn(LocalDateTime dob) {
+            this.dob = dob;
+            return this;
+        }
+
+        public Builder hasPhoneNumber(String phone) {
+            this.phone = phone;
+            return this;
+        }
+
+        public Builder withAddress(String address) {
+            this.address = address;
+            return this;
+        }
+
+        public Staff build() {
+            Staff staff = new Staff(this.id, this.firstName, this.middleName, this.lastName,
+                    this.dob, this.phone, this.address);
+            return staff;
+        }
+
+
+    }
+
+
 }
