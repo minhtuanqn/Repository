@@ -69,7 +69,6 @@ public class StaffRepository implements CrudRepository<Staff> {
                 if (dobLocalTime != null) {
                     dobTimeStamp = Timestamp.valueOf(dobLocalTime);
                 }
-
                 ps.setInt(1, staff.getId());
                 ps.setString(2, staff.getFirstName());
                 ps.setString(3, staff.getMiddleName());
@@ -90,7 +89,9 @@ public class StaffRepository implements CrudRepository<Staff> {
         }
         finally {
             try {
-                rs.close();
+                if(rs != null) {
+                    rs.close();
+                }
             }
             catch (SQLException e) {
                 String message = "ERROR: SQLException when close ResultSet for save data to Database";
@@ -118,7 +119,11 @@ public class StaffRepository implements CrudRepository<Staff> {
                 String firstname = rs.getString("firstname");
                 String middleName = rs.getString("middleName");
                 String lastName = rs.getString("lastName");
-                LocalDateTime dob = rs.getTimestamp("dob").toLocalDateTime();
+                Timestamp dobTimeStamp = rs.getTimestamp("dob");
+                LocalDateTime dob = null;
+                if(dobTimeStamp != null) {
+                    dob = dobTimeStamp.toLocalDateTime();
+                }
                 String phone = rs.getString("phone");
                 String address = rs.getString("address");
                 Staff staff = new Staff.Builder(id).hasFirstName(firstname)
@@ -136,5 +141,4 @@ public class StaffRepository implements CrudRepository<Staff> {
         }
         return staffCollection;
     }
-
 }
