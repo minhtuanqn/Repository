@@ -33,6 +33,12 @@ public class StaffRepository implements CrudRepository<Staff> {
         this.dataSource = dataSource;
     }
 
+    /**
+     * Set generated ID to returned list
+     * @param iterator
+     * @param rs
+     * @throws SQLException
+     */
     private void setGeneratedIdToList(Iterator<Staff> iterator, ResultSet rs) throws SQLException {
         while (rs.next()) {
             int primaryKey = rs.getInt(1);
