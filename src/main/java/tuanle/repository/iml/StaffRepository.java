@@ -34,7 +34,7 @@ public class StaffRepository implements CrudRepository<Staff> {
     }
 
     /**
-     * Set generated ID to returned list
+     * Set generated ID to query list for testing
      * @param iterator
      * @param rs
      * @throws SQLException
