@@ -6,7 +6,6 @@ import tuanle.repository.CrudRepository;
 
 import javax.sql.DataSource;
 import java.sql.*;
-import java.text.MessageFormat;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -45,6 +44,42 @@ public class StaffRepository implements CrudRepository<Staff> {
         }
     }
 
+    private void closeConnection(PreparedStatement ps, ResultSet rs, Connection cnn) {
+        try {
+            if(rs != null) {
+                rs.close();
+            }
+        }
+        catch (SQLException e) {
+            String message = "ERROR: SQLException when close ResultSet for save data to Database";
+            LOGGER.error(message, e.fillInStackTrace());
+        }
+        finally {
+            try {
+                if(ps != null) {
+                    ps.close();
+                }
+            }
+            catch (SQLException e) {
+                String message = "ERROR: SQLException when close PrepareStatement for save data to Database";
+                LOGGER.error(message, e.fillInStackTrace());
+            }
+            finally {
+                try {
+                    if(cnn != null) {
+                        cnn.close();
+                    }
+                }
+                catch (SQLException e) {
+                    String message = "ERROR: SQLException when close Connection for save data to Database";
+                    LOGGER.error(message, e.fillInStackTrace());
+                }
+
+            }
+
+        }
+    }
+
 
     /**
      * {@inheritDoc}
@@ -54,15 +89,17 @@ public class StaffRepository implements CrudRepository<Staff> {
      */
     @Override
     public void save(Collection<Staff> data) {
+        Connection cnn = null;
+        PreparedStatement ps = null;
         ResultSet rs = null;
         if (data == null || data.size() == 0) {
             throw new IllegalArgumentException();
         }
         final String sql = "INSERT INTO Staff(id ,firstname,middleName, lastname, dob, phone, address) " +
                 " VALUES(?,?,?,?,?,?,?)";
-        try (Connection cnn = this.dataSource.getConnection();
-             PreparedStatement ps = cnn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-        ) {
+        try {
+            cnn = this.dataSource.getConnection();
+            ps = cnn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             cnn.setAutoCommit(false);
             Iterator<Staff> iterator = data.iterator();
             while (iterator.hasNext()) {
@@ -87,19 +124,18 @@ public class StaffRepository implements CrudRepository<Staff> {
             setGeneratedIdToList(data.iterator(), rs);
             cnn.commit();
         } catch (SQLException e) {
+            try {
+                cnn.rollback();
+            }
+            catch (SQLException ex) {
+                String message = "ERROR: SQLException when can not rollback data when occur SQL exception";
+                LOGGER.error(message, ex.fillInStackTrace());
+            }
             String message = "ERROR: SQLException when save data to Database";
-            LOGGER.error(message, e.getMessage());
+            LOGGER.error(message, e.fillInStackTrace());
         }
         finally {
-            try {
-                if(rs != null) {
-                    rs.close();
-                }
-            }
-            catch (SQLException e) {
-                String message = "ERROR: SQLException when close ResultSet for save data to Database";
-                LOGGER.error(message, e.getMessage());
-            }
+            closeConnection(ps, rs, cnn);
         }
     }
 
@@ -140,7 +176,7 @@ public class StaffRepository implements CrudRepository<Staff> {
 
         } catch (SQLException e) {
             String message = "ERROR: SQLException when query data from Database";
-            LOGGER.error(message, e.getMessage());
+            LOGGER.error(message, e.fillInStackTrace());
         }
         return staffCollection;
     }
