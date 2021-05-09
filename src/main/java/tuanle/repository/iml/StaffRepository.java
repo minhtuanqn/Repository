@@ -24,7 +24,7 @@ public class StaffRepository implements CrudRepository<Staff> {
      */
     public StaffRepository(DataSource dataSource) throws SQLException {
         if (dataSource == null) {
-            throw new SQLException();
+            throw new IllegalArgumentException();
         }
         this.dataSource = dataSource;
     }

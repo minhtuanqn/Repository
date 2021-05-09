@@ -21,8 +21,8 @@ public class StaffRepositoryTest extends DatabaseTestSupport {
         repository.save(new ArrayList<Staff>());
     }
 
-    @Test(expected = SQLException.class)
-    public void whenSave_NullDataSource_ThenThrowSQLException() throws SQLException {
+    @Test(expected = IllegalArgumentException.class)
+    public void whenSave_NullDataSource_ThenThrowIllegalArgumentException() throws SQLException {
         final CrudRepository<Staff> repository = new StaffRepository(null);
         repository.save(new ArrayList<Staff>());
     }
